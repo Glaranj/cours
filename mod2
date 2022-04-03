@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    
+<style> 
+    
+        
+    body{
+        background-color: darkcyan;
+        margin:3%;
+         font-family: monospace;
+    }
+    
+    div{ 
+        background-color: azure;
+        height: 20%;
+        margin: 1%;
+        border: 3px solid black;
+    }
+        
+        h3{ position: relative;
+            top: 0px;
+            float: right;
+            clear: left;
+            border:solid 3px;
+            margin-top: 0px;
+            margin-bottom: 3px;
+        }
+    }
+    
+    #1{ 
+    background-color: beige;
+    }
+    
+    #2{
+        background-color: antiquewhite;
+    }
+    
+    #3{
+        background-color: beige;
+    }
+    
+       @media (min-width: 992px) and (max-width: 1199px){
+       div{width:26%} }
+      
+    
+    @media (min-width: 768px) and (max-width: 991px){
+        .1, .2 {
+            width: 40%;
+        } 
+        
+        .3{
+            width: 64%;
+         }
+    }
+    
+    
+    @media (max-width: 767px){
+        div{ 
+        width: 89%;}
+    }
+    
+</style>
+ </head>
+<body> 
+    <header>
+    <h1> Chez Moi</h1>
+    </header>
+ <div class="1"> 
+     <h3 id="1"> apps</h3>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>   
+    
+ <div class="2">
+    <h3 id="2"> mains </h3>
+     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div> 
+    
+<div class="3">
+    <h3 id="3"> sweets</h3>
+     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    
+    </div> 
+    
+</body>
+</html>
